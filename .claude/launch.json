@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "EDF Local (static HTML)",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "C:\\Users\\trist\\OneDrive\\Apps\\Claude Code Tristan\\serve.bat"],
+      "port": 3000
+    },
+    {
+      "name": "Ma Conso & Moi (Vite dev)",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "C:\\Users\\trist\\OneDrive\\Apps\\Claude Code Tristan\\serve-ma-conso.bat"],
+      "port": 5173
+    }
+  ]
+}

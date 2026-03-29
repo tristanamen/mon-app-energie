@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:particulier.edf.fr)",
+      "Bash(echo \"node_exit:$?\")",
+      "Bash(echo \"py_exit:$?\")",
+      "mcp__Claude_Preview__preview_start",
+      "Read(//c/Users/trist/scoop/**)",
+      "Read(//c/Users/trist/**)",
+      "Read(//c/ProgramData/chocolatey/**)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command \"Write-Host ''PS works''\")",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
